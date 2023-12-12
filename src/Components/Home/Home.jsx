@@ -1,5 +1,11 @@
+import Nav from "../Nav/Nav";
+
 const Home = () => {
-  return <div className="text-5xl text-red-600 text-center">hello world!</div>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 };
 
 export default Home;
