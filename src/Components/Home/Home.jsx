@@ -1,12 +1,13 @@
-import Footer from "../Footer/Footer";
+import Banner from "../Banner/Banner";
 import Nav from "../Nav/Nav";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div>
+    <motion.div>
       <Nav />
-      <Footer />
-    </div>
+      <Banner />
+    </motion.div>
   );
 };
 

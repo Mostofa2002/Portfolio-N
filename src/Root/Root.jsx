@@ -1,14 +1,15 @@
 import { Outlet } from "react-router-dom";
 import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
+import { motion } from "framer-motion";
 
 const Root = () => {
   return (
-    <div>
+    <motion.div>
       <Nav></Nav>
       <Outlet></Outlet>
       <Footer />
-    </div>
+    </motion.div>
   );
 };
 
