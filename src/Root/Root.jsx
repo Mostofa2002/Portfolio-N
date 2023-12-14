@@ -3,9 +3,11 @@ import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
 const Root = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black ">
       <Nav />
-      <Outlet></Outlet>
+      <div className=" content-around max-w-screen-xl mx-auto">
+        <Outlet></Outlet>
+      </div>
       <Footer />
     </div>
   );

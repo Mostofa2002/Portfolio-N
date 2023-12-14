@@ -7,17 +7,16 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div x-data={{ isOpen: false }} className="bg-transparent">
+      <div
+        x-data={{ isOpen: false }}
+        className="bg-transparent
+       content-around max-w-screen-xl mx-auto
+      "
+      >
         <div className="container px-6 py-4 mx-auto">
           <div className="lg:flex lg:items-center">
             <div className="flex items-center justify-between">
-              <a href="#">
-                <img
-                  className="w-auto h-6 sm:h-7"
-                  src="https://i.ibb.co/qCyJC9N/Professional.png"
-                  alt=""
-                />
-              </a>
+              <h1 className="text-xl text-white">Mostofa Taj</h1>
 
               {/* Mobile menu button */}
               <div className="flex lg:hidden">
@@ -48,7 +47,7 @@ const Nav = () => {
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="#Project"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-blue-900 "
                 >
                   Projects

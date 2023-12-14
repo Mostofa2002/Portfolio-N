@@ -27,7 +27,7 @@ const Banner = () => {
         </div>
 
         <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
-          <div className="bg-pink-500 flex justify-center custom-border-radius">
+          <div className="bg-blue-200  flex justify-center custom-border-radius">
             <img
               className="w-full h-96 lg:max-w-3xl"
               src="https://i.ibb.co/D1HL5Hg/Professional-removebg-preview.png"
