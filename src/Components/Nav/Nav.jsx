@@ -52,19 +52,19 @@ const Nav = () => {
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="#Skills"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-blue-900 "
                 >
                   Skills
                 </a>
                 <a
-                  href="#"
+                  href="#Education"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-blue-900 "
                 >
                   Experience
                 </a>
                 <a
-                  href="#"
+                  href="#Experience"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
                 >
                   Education
