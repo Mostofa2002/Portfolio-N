@@ -2,7 +2,6 @@ import { useState } from "react";
 import { IoIosMenu, IoMdAddCircleOutline } from "react-icons/io";
 import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (

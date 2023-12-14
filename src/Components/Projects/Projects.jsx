@@ -7,6 +7,7 @@ const Projects = () => {
         My Top <span className="text-blue-500">Projects</span>
       </h1>
       <div className="flex justify-center items-center lg:flex-row flex-col content-around max-w-screen-xl mx-auto gap-16 ">
+        {/* 1 */}
         <div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
           <div className="px-4 py-2">
             <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">
@@ -39,7 +40,7 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-
+        {/* 2 */}
         <div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
           <div className="px-4 py-2">
             <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">
@@ -72,7 +73,7 @@ const Projects = () => {
             </Link>
           </div>
         </div>
-
+        {/* 3 */}
         <div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
           <div className="px-4 py-2">
             <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">

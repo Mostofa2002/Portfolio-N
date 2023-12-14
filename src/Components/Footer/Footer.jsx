@@ -2,7 +2,10 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+      <footer
+        className="footer items-center p-4 bg-transparent
+       content-around max-w-screen-xl mx-auto text-neutral-content"
+      >
         <aside className="items-center grid-flow-col">
           <svg
             width="36"
