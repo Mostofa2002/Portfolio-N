@@ -1,15 +1,13 @@
 import { Outlet } from "react-router-dom";
 import Nav from "../Components/Nav/Nav";
 import Footer from "../Components/Footer/Footer";
-import { motion } from "framer-motion";
-
 const Root = () => {
   return (
-    <motion.div>
-      <Nav></Nav>
+    <div className="bg-black">
+      <Nav />
       <Outlet></Outlet>
       <Footer />
-    </motion.div>
+    </div>
   );
 };
 
